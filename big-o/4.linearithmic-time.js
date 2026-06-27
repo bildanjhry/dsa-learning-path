@@ -1,7 +1,7 @@
 /*
 O(n log n)
 Ini biasanya terjadi pada algoritma sorting yang efisien seperti Merge Sort. Ia membelah array secara logaritmik ($O(\log n)$) 
-lalu menggabungkannya kembali sambil mengurutkan elemennya ($O(n)$).
+lalu menggabungkannya kembali sambil mengurutkan elemennya (O(n)).
 
 */
 

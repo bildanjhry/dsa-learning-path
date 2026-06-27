@@ -8,7 +8,7 @@ function fibonacciRecursive(n) {
     if (n < 1) return n;
     console.log(n)
 
-    // Memanggil dirinya sendiri 2 kali di setiap langkah
+    // Memanggil dirinya sendiri setiap langkah
     fibonacciRecursive(n - 1)
 }
 
