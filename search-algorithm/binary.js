@@ -40,8 +40,9 @@ function findIndexRec(arr, target, curr){
 const arr = [12, 11, 8, 10, 7, 2]
 console.log(findIndex(arr, 2, arr.length-1))
 
-// namun jika menggunakan binary search. Binary search baru bisa digunakan secara efektif jika kita 
+// namun jika menggunakan binary search dan Binary search baru bisa digunakan secara efektif jika kita 
 // mempunyai array yang berurut.
+// O(log2 n) time complexity
 function findIndexBin(arr, target){
     let left = 0
     let right = arr.length-1

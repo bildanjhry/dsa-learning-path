@@ -1,3 +1,4 @@
+// O(log3 n) time complexity
 function findBook(rack, target){
     let low = 0
     let high = (rack.length-1)
